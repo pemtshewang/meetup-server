@@ -1,0 +1,33 @@
+# .gitignore for ASP.NET Core
+
+# Build output
+bin/
+obj/
+
+# NuGet packages
+*.nuget.props
+*.nuget.targets
+*.lock.json
+
+# User-specific files
+*.user
+*.suo
+*.sln.docstates
+
+# IDE/editor files
+.vs/
+.idea/
+*.sln.ide
+
+# Temporary files
+*.log
+*.tmp
+
+# Configuration files
+appsettings.json
+appsettings.Development.json
+
+# Other generated files
+*.vscode/
+npm-debug.log
+Data/
